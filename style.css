@@ -1,21 +1,46 @@
-
 *{
-    background-color: beige;
+    margin:0;
+    padding: 0 ;
 }
-h1{
-    height: 50px;
-    width:25px;
-    color:burlywood;
-    text-align:left;
-    text-transform: capitalize;
-    text-decoration:solid;
+#navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
 }
-p{
-    color:black;
+
+a{
+    text-decoration: none;
+    color:white;
+    margin-left: 200px;
+}
+#logo{
+    margin-left: 2px;
+   color: #f08804; 
+   font-size: 25px;
+
+}
+input{
+    margin-left: 200px;
 }
 button{
-    background-color: chocolate;
+background-color: #f08804;
+color:white;
 }
-a{
-    text-decoration: underline;
+.contentbox{
+    height: 100px;
+    width:100px;
+    border:2px solid black;
+    display:inline-block;
+    margin-right: 100px;
+  
+}
+
+#content{
+    height:620px;
+   
+}
+footer{
+    background-color: #0f1111;
+    color:white;
+    text-align: center;
 }
